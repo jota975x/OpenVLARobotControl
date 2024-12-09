@@ -1,5 +1,5 @@
 # Robot Motion Control with LoRa Tuned Pre-Trained Vision-Language-Action
-The project develops a system for robotic movement with reinforcement learning for low-level motion control and OpenVLA for high-level navigation, enabling autonomous movement and path planning.
+This project explores the integration of video and text input for autonomous robot navigation using OpenVLA (Vision and Language Agent) and a reinforcement learning-based robot motion control system. The OpenVLA model combines visual and textual data to generate robot commands, which are then passed to a separate module responsible for controlling the robot's linear and angular velocities. The OpenVLA model is trained using Low-Rank Adaptation (LoRA) techniques, while the motion control module leverages the Soft Actor-Critic (SAC) algorithm to optimize robot performance. The objective of this work is to develop an end-to-end system capable of autonomous navigation, where the robot interprets and responds to multi-modal input to navigate in dynamic environments.
 
 # Robot Motion Control Training
 Everything can be ran from the AutoNAV.ipynb jupyter notebook
