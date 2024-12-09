@@ -5,6 +5,7 @@ This project explores the integration of video and text input for autonomous rob
 Everything can be ran from the AutoNAV.ipynb jupyter notebook
 1. Run AutoNAV.ipynb, select p.GUI to run with the PyBullet GUI or p.DIRECT for headless version
 2. Results can be visualized using results_vis.ipynb
+State, Goal and Reward defintion can be observed in `utils.py`, additionally, this file includes functions for differential driving and environment set up. Model definition is located in `SAC.py`. LiDAR data collection function is located in `lidar.py`. Robot URDF files and meshes can be obtained from the 'diff_drive_robot' folder.
 
 # OpenVLA Custom Fine-Tune
 1. The "Create Dataset" notebook creates our data from our simulation environment in pybullet. We will have both text commands and simulation images for the LoRa fine-tuning.
